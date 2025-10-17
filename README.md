@@ -11,7 +11,7 @@
 ---
 
 ## 1  Project Overview
-`MXene_seg` is a self-contained toolkit for
+`MXene_seg` is a self-contained repository for
 * finetuning deep-learning models on STEM / HAADF images (`functions/finetuning_training.py`)
 * detecting lattice defects & computing vacancy statistics (`functions/finding_defects.py`)
 * interactive 3-D visualisation of layer-projected atoms (`functions/layers.py`, `functions/three_d.py`)
