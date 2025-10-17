@@ -4,7 +4,7 @@
 
 | Notebooks | Python | License |
 |-----------|--------|---------|
-| 0–3 (training → theory) | 3.9 | MIT |
+| 0–3 (training → theory) | 3.9 | BSD-3 |
 
 </div>
 
@@ -18,9 +18,15 @@
 
 All heavy-lifting code lives in **`functions/`**; the numbered folders hold Jupyter notebooks that document the full workflow.
 
+## 2 Contact Information
+This package was developed by Grace Guinan, Michelle A. Smeaton, Brian C. Wyatt, Steven Goldy, Hilary Egan, Andrew
+Glaws, Garritt J. Tucker, Babak Anasori and Steven R. Spurgeon. Address all questions to: steven.spurgeon@nrel.gov
+
+NREL Software Record SWR-25-67
+
 ---
 
-## 2  Quick Start
+## 3  Quick Start
 
 ```bash
 # ❶ Clone the repo
