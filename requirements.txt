@@ -1,0 +1,47 @@
+# ── core numerics & data handling ────────────────────────────────────────────
+numpy>=1.26,<2.0
+scipy>=1.13,<1.14
+pandas>=2.1,<2.2
+networkx>=3.2,<3.3
+
+# ── image I/O & processing ───────────────────────────────────────────────────
+pillow>=10.0,<10.1              # HyperSpy 1.7 needs <10.1
+tifffile>=2024.8.30,<2024.9
+imageio>=2.25,<2.28             # HyperSpy ≤1.7 needs <2.28
+scikit-image>=0.22,<0.23
+opencv-python-headless>=4.9,<5
+
+# ── plotting & interactive viz ───────────────────────────────────────────────
+matplotlib>=3.8,<3.10
+matplotlib-scalebar>=0.8.1,<1
+plotly>=5.22,<6
+
+# ── statistics & machine learning ────────────────────────────────────────────
+scikit-learn>=1.4,<1.5
+statsmodels>=0.14,<0.15
+torch>=2.2,<2.3                 # last PyTorch w/ mac-arm cp39 wheels
+h5py>=3.11
+
+# ── STEM / atom-resolved toolkits ────────────────────────────────────────────
+atomai>=0.8
+atomap==0.3.3        
+
+# ── microscopy signal processing ─────────────────────────────────────────────
+hyperspy>=1.7,<1.8
+hyperspy-gui-ipywidgets>=1.0,<1.1   # works with ipywidgets 7.x
+ipywidgets>=7.7,<8
+widgetsnbextension>=3.6,<3.7        # 3.x line matches ipywidgets 7.x
+
+# ── sparse / parallel stack (Hyperspy & Atomap) ──────────────────────────────
+dask[complete]>=2023.7,<2024
+dill>=0.3.6,<0.4
+sparse>=0.14,<0.15
+
+# ── experiment tracking & materials meta ─────────────────────────────────────
+mlflow>=2.0,<3
+pydantic>=1.10,<2
+protobuf>=4.25,<5
+pymatgen>=2023.8
+
+# ── networking helper (silences LibreSSL warning) ────────────────────────────
+urllib3<2
