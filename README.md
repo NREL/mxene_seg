@@ -1,4 +1,4 @@
-# MXene_seg   
+# MXene Segmentation and 3D Clustering    
 
 <div align="center">
 
