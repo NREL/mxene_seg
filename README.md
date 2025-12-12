@@ -22,7 +22,12 @@ All heavy-lifting code lives in **`functions/`**; the numbered folders hold Jupy
 This package was developed by Grace Guinan, Michelle A. Smeaton, Brian C. Wyatt, Steven Goldy, Hilary Egan, Andrew
 Glaws, Garritt J. Tucker, Babak Anasori and Steven R. Spurgeon. Address all questions to: steven.spurgeon@nrel.gov
 
-NREL Software Record SWR-25-67
+Copyright (c) 2025 National Laboratory of the Rockies (NLR)
+
+NLR Software Record SWR-25-67
+
+## 3 How to Cite
+Please cite our Arxiv preprint: Guinan, G., Smeaton, M. A., Wyatt, B. C., Goldy, S., Egan, H., Glaws, A., Tucker, G. J., Anasori, B., & Spurgeon, S. R. (2025). Revealing the hidden third dimension of point defects in two-dimensional MXenes. arXiv. https://arxiv.org/abs/2511.08350
 
 ---
 
